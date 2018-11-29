@@ -10,13 +10,30 @@
     <script>
             // TASK #1 Stringi yuraqanchyur bari arajin tary mecatar
             
-        function x(str){
+
+
+        function x(f1){
+            var arr = f1.split(" ");
+            var st = "";
+            for (var i = 0; i < arr.length; ++i){
+                st += arr[i][0].toUpperCase() + arr[i].slice(1) + " "; 
+
+            
+            return st.trim();
+        }
+    console.log(x("hdjwgu erjihfir fherkufnh"))
+
+
+
+
+
+        /* function x(str){
             var low = str.toLowerCase()
             var firstLetter = low.charAt(0).toUpperCase();
             var result = firstLetter + low.slice(1)
             return result
         }
-        console.log(x("strING"));
+        console.log(x("strING huui niunji"));
 
             // TASK #2 stringi mej gtnel amenaerkar bary
 
@@ -42,7 +59,7 @@
             }
             return result
             }
-        console.log(dzayn("jsadegbuj"))
+        console.log(dzayn("jsadegbuj")) */
 
 
     </script>
