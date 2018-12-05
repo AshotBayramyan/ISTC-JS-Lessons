@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+
+            // TASK #1
+
+    function arr(){
+        var x = ["a1", "a2", "a3", "a4", "a5"];
+        var y = 3;
+        var z = x.slice(0, y);
+        return z;
+    }
+    console.log(arr())
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - 
+
+            // TASK #2
+
+    var x = [7, 'a', 'a', 'a', 2, 7, 'a', 7, 'a', 2, 4, 9, 7]
+
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - 
+
+            // TASK #3
+
+    var x = [3,2.3,4.2,6,8,2,5];
+    
+
+
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - 
+
+            // TASK #4  
+
+    var num = [5, 2, 3, 4, 9, 3, 5];
+    var x = Array.from(new Set(num));
+    x.sort(function(a, b){return a - b});
+    console.log(x);
+
+// - - - - - - - - - - - - - - - - - - - - - - - - 
+
+            // TASK #5
+
+    var x = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    x.sort(function(a, b){return 0.5 - Math.random()});
+    console.log(x)
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
